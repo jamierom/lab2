@@ -1,3 +1,4 @@
+/* to remove default browsing space */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body {
     color: #355070;
 }
 
+/* mobile navigation part */
 .nav-bar {
     display: flex;
     flex-direction: column;
@@ -31,11 +33,11 @@ body {
     gap: 16px;
 }
 
-
 .nav-links a {
     color: white;
 }
 
+/* for the main page content */
 .container {
     margin: 0 auto;
     max-width: 1100px;
@@ -43,6 +45,7 @@ body {
 }
 
 .bio-hero {
+    flex-basis: 100%;
     background-color: #eadc8b;
     padding: 32px;
     margin-bottom: 24px;
@@ -52,6 +55,7 @@ body {
     color: #6d597a;
 }
 
+/* card stacks vertical on mobile devices */
 .card-grid {
     display: flex;
     flex-direction: column;
@@ -62,10 +66,11 @@ body {
     flex-basis: 100%;
     background-color: #b56576;
     padding: 24px;
-    border-radius: 8px;
+    border-radius: 16px;
     box-shadow: 0 2px 5px #ccc;
 }
 
+/* card appearance changes when cursor hovers */
 .card:hover {
     background-color: #e56b6f;
     box-shadow: 0 4px 10px #aaa;
@@ -78,6 +83,7 @@ footer {
     padding: 24px;
 }
 
+/* for the desktop layout */
 @media (min-width: 768px) {
 
     .nav-bar {
@@ -93,6 +99,7 @@ footer {
         flex-direction: row;
     }
 
+    /* cards now side by side in this view */
     .card-grid {
         flex-direction: row;
         justify-content: space-between;
