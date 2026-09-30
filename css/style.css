@@ -31,13 +31,9 @@ body {
     gap: 16px;
 }
 
-.nav-links li {
-    list-style: none;
-}
 
 .nav-links a {
     color: white;
-    text-decoration: none;
 }
 
 .container {
