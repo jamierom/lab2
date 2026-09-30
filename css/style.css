@@ -10,7 +10,7 @@ body {
     color: #355070;
 }
 
-.navbar {
+.nav-bar {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,18 +24,18 @@ body {
     margin-bottom: 16px;
 }
 
-.navlinks {
+.nav-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
 }
 
-.navlinks li {
+.nav-links li {
     list-style: none;
 }
 
-.navlinks a {
+.nav-links a {
     color: white;
     text-decoration: none;
 }
@@ -46,19 +46,19 @@ body {
     padding: 24px;
 }
 
-.biohero {
+.bio-hero {
     background-color: #eadc8b;
     padding: 32px;
     margin-bottom: 24px;
     border-radius: 10px;
 }
 
-.biohero h1 {
+.bio-hero h1 {
     color: #6d597a;
     margin-bottom: 16px;
 }
 
-.cardgrid {
+.card-grid {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -87,7 +87,7 @@ footer {
 
 @media (min-width: 768px) {
 
-    .navbar {
+    .nav-bar {
         flex-direction: row;
         justify-content: space-between;
     }
@@ -96,11 +96,11 @@ footer {
         margin-bottom: 0;
     }
 
-    .navlinks {
+    .nav-links {
         flex-direction: row;
     }
 
-    .cardgrid {
+    .card-grid {
         flex-direction: row;
         justify-content: space-between;
     }
