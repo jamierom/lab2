@@ -3,3 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: lightslategrey;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 24px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 24px;
+}
+
+.biohero {
+    background-color: aliceblue;
+    padding: 32px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.biohero h1 {
+    margin-bottom: 16px;
+}
+
+.cardgrid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card {
+    flex-basis: 100%;
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px #aaa;
+}
+
+footer {
+    
+}
