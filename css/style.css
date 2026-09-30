@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: white;
     color: #355070;
 }
@@ -50,12 +50,10 @@ body {
     background-color: #eadc8b;
     padding: 32px;
     margin-bottom: 24px;
-    border-radius: 10px;
 }
 
 .bio-hero h1 {
     color: #6d597a;
-    margin-bottom: 16px;
 }
 
 .card-grid {
@@ -82,7 +80,6 @@ footer {
     color: white;
     text-align: center;
     padding: 24px;
-    margin-top: 24px;
 }
 
 @media (min-width: 768px) {
