@@ -6,15 +6,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkgray;
-    color: lightslategrey;
+    background-color: #eadc8b;
+    color: #355070;
 }
 
 .navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
+    background-color: #355070;
     padding: 24px;
 }
 
@@ -47,13 +47,14 @@ body {
 }
 
 .biohero {
-    background-color: aliceblue;
+    background-color: #eadc8b;
     padding: 32px;
     margin-bottom: 24px;
     border-radius: 10px;
 }
 
 .biohero h1 {
+    color: #6d597a;
     margin-bottom: 16px;
 }
 
@@ -65,18 +66,19 @@ body {
 
 .card {
     flex-basis: 100%;
-    background-color: white;
+    background-color: #b56576;
     padding: 24px;
     border-radius: 8px;
     box-shadow: 0 2px 5px #ccc;
 }
 
 .card:hover {
+    background-color: #e56b6f;
     box-shadow: 0 4px 10px #aaa;
 }
 
 footer {
-    background-color: lightgrey;
+    background-color: #6d597a;
     color: white;
     text-align: center;
     padding: 24px;
